@@ -1,1 +1,270 @@
-<h1>Hello world!</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Aero Tennis Ranking 2017</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul id="ul-menu-list" class="nav navbar-nav">
+            <li><a href="#" onclick="toggle('ranking');">Ranking</a></li>
+            <li><a href="#" onclick="toggle('jogos');">Jogos</a></li>
+            <li><a href="#" onclick="toggle('extras');">Extras</a></li>
+			<li><a href="#" onclick="toggle('regulamento');">Regulamento</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div id="ranking" class="article starter-template">
+        <h3>Ranking 2017</h3><br>
+        <p class="lead">     	
+			<iframe frameborder="0" src="https://docs.google.com/spreadsheets/d/1QFdESm5xFPMw_G0_mtbK2W52cWR2tLMcp2dakx-dmxY/pubhtml? chrome=false&amp;gid=1961159171&amp;single=true&amp;widget=false&amp;chrome=false&amp;headers=false&range=a3%3Ag" height="800" width="372"></iframe>
+        </p>
+      </div>
+	  
+      <div id="jogos" class="article starter-template" style="display:none;">
+        <h3>Jogos</h3><br>
+        <p class="lead">     	
+			<iframe frameborder="0" src="https://docs.google.com/spreadsheets/d/1QFdESm5xFPMw_G0_mtbK2W52cWR2tLMcp2dakx-dmxY/pubhtml? chrome=false&amp;gid=923101896&amp;single=true&amp;widget=false&amp;chrome=false&amp;headers=false&range=a1%3An" height="800" width="800"></iframe>
+        </p>
+      </div>
+	  
+      <div id="extras" class="article starter-template" style="display:none;">
+        <h3>Pontuações Extras</h3><br>
+        <p class="lead">     	
+			<iframe frameborder="0" src="https://docs.google.com/spreadsheets/d/1QFdESm5xFPMw_G0_mtbK2W52cWR2tLMcp2dakx-dmxY/pubhtml? chrome=false&amp;gid=1996086327&amp;single=true&amp;widget=false&amp;chrome=false&amp;headers=false&range=a1%3Ad" height="800" width="655"></iframe>
+        </p>
+      </div>
+	  
+      <div id="regulamento" class="article starter-template" style="display:none;">
+		<h3>
+		  REGULAMENTO
+		</h3>
+		<br>
+		
+        <p class="text-justify">     	
+			O Ranking do Aero Tennis Center é uma disputa contínua/anual envolvendo EXCLUSIVAMENTE os alunos da escola de tênis, que disputarão a pontuação através de torneios organizados pela escola e os "Desafios do Ranking".
+		</p>
+		<p class="text-justify">  
+			A disputa terá objetivo exclusivamente recreativo e será organizado, dirigido e viabilizado pela comissão designada pela direção do Aero Tennis Center.
+        </p>
+		
+		<br>
+		<h4 class="text-justify">
+			1. Dos locais e horários dos jogos
+		</h4>
+		<p class="text-justify"> 
+			1.1. Todos os jogos do "Desafio do Ranking" serão realizados dentro do Aero Tennis Center, podendo ocorrer em qualquer dia da semana, desde que haja disponibilidade dos tenistas e das quadras, limitando-se a UM CONFRONTO A CADA SEMANA.
+		</p>
+		<p class="text-justify"> 
+			1.2. Para efeitos dos "Desafios do Ranking", a semana será considerada com início na segunda-feira e término no domingo.
+		</p>
+		
+		<br>
+		<h4 class="text-justify">
+			2. A disputa
+		</h4>
+		<p class="text-justify"> 
+			2.1. O "Desafio do Ranking" deverá seguir os moldes descritos no regulamento:
+		</p>
+			<ul class="list-unstyled text-justify">
+			  <li>2.1.1. Será disputado em um set único de 8 (oito) games;</li>
+			  <li>2.1.2. Todos os membros do ranking poderão jogar entre si, desde que respeitando o limite de 10 posições acima ou abaixo na pontuação geral do ranking, respeitando o limite de um jogo por semana (por jogador);</li>
+			  <li>2.1.3. O jogador não poderá repetir o adversário antes que sejam extintas as possibilidades de outro adversário entre o limite permitido pelo ranking;
+			    <ul>
+			      <li>Em casos especiais, os jogadores deverão procurar a coordenação do Ranking e solicitar autorização para o "casamento" de jogos;</li>
+			      <li>Casos especiais são indisponibilidade de outros adversários para a data; revanche solicitada pelo derrotado e autorizada pela coordenação.</li>
+			    </ul>
+			  </li>
+
+			</ul>
+		
+		<br>
+		<h4 class="text-justify">
+			3. Do casamento de jogos
+		</h4>
+		<p class="text-justify"> 
+			3.1. O desafiante poderá fechar o jogo com o adversário pelo meio que achar conveniente. No entanto, é OBRIGATÓRIO que o desafio agendado anteriormente seja comunicado no grupo do WhatsApp do Aero Tennis Center, para fins de controle da organização;
+		</p>
+		<p class="text-justify"> 
+			3.2. Caso o desafiado ou desafiante confirme a partida e um dos dois não vá ao jogo sem aviso prévio ao adversário, o desafiado perderá 30 pontos no ranking.
+		</p>
+		<p class="text-justify"> 
+			3.3. Em caso de viagens de urgência, problemas de saúde ou outros fatores que inviabilizem o confronto, o caso será avaliado pela comissão organizadora do Ranking do Aero Tennis Center, havendo a possibilidade de não haver punição ao faltoso.
+		</p>
+		<p class="text-justify"> 
+			3.4. Na hipótese de impossibilidade do jogador em atuar na semana, poderá haver a reposição do jogo na semana seguinte, desde que haja justificativa para a não disputa na semana anterior e seja autorizado pela comissão;
+		</p>
+		<p class="text-justify"> 
+			3.5. Os desafios poderão ser "casados" no próprio dia de disputa, dependendo da disponibilidade dos atletas e se o confronto atende às normas sobre limite de posições (dez acima ou abaixo). Nesse caso, é responsabilidade dos atletas informarem à comissão organizadora sobre o confronto.
+		</p>
+		
+		<br>
+		<h4 class="text-justify">
+			4. Da pontuação no Desafio do Ranking
+		</h4>
+		<p class="text-justify"> 
+			4.1. Os pontos dos participantes serão somados seguindo critérios relacionados a vitórias, derrotas e posições, obedecendo à seguinte sistemática:
+		</p>
+		
+		<ul class="list-unstyled text-justify">
+		  <li>4.1.1. Vencedor receberá 30 pontos;</li>
+		  <li>4.1.2. Perdedor receberá 10 pontos;</li>
+		  <li>4.1.3. Quem não tiver pontuação ou entrar posteriormente no ranking terá cinco pontos a menos que o último colocado;</li>
+		  <li>4.1.4. Será oferecido "Bônus de Posição" a cada participante do ranking:
+		    <ul>
+		      <li>O "Bônus de Posição" é acréscimo na pontuação de acordo com a distância entre os participantes do confronto, só contando aos que estão abaixo no Ranking;</li>
+		      <li>O "Bônus de Posição" será a pontuação referente ao dobro do número de posições entre os jogadores convertidos em pontos. EX: Em confronto do 1º com o 10º, o "Bônus de Pontuação" para o 10º colocado, em caso de vitória, será de 18 pontos (9 posições de diferença). Assim, o 10º colocado no ranking receberá 18 + 30, o equivalente a 48 pontos.</li>
+		    </ul>
+		  </li>
+		</ul>
+
+		<br>
+		<h4 class="text-justify">
+			5. Jogos interrompidos
+		</h4>
+		<p class="text-justify"> 
+			5.1. Em caso de interrupção do jogo em andamento, os tenistas têm que finalizar o confronto dentro do prazo previsto para o fim da rodada do ranking. Na hipótese do jogo não ser finalizado também em data posterior, os jogadores poderão fazer a finalização do jogo SOMENTE na semana posterior.
+		</p>
+		
+		<br>
+		<h4 class="text-justify">
+			6. Torneios
+		</h4>
+		<p class="text-justify"> 
+			6.1. A direção do Aero Tennis Center realizará torneios que valerão pontos para o Ranking, de acordo com a viabilidade de datas e disponibilidade de quadras;
+		</p>
+		<p class="text-justify"> 
+			6.2. A direção, inclusive, poderá dividir a disputa por níveis/posições, atribuindo pontuações diferentes para cada categoria, o que será previamente definido e informado aos competidores
+		</p>
+		<p class="text-justify"> 
+			6.3. A direção do Aero Tennis Center fica autorizada a estipular valor para inscrição nos torneios, não sendo obrigatória a participação dos alunos para permanência no ranking;
+		</p>
+		<p class="text-justify"> 
+			6.4. A pontuação de cada torneio para efeitos do Ranking Aero Tennis Center será definida pela direção da escola.
+		</p>
+		<p class="text-justify"> 
+			6.5. Os torneios ocorrerão, preferencialmente, no sistema de chaves, com classificação dos melhores para a disputa dos <i>playoffs</i>. Contudo, cada torneio seguirá os moldes próprios determinados pela organização.
+		</p>		
+		
+		<br>
+		<h4 class="text-justify">
+			7. Estrutura
+		</h4>
+		<p class="text-justify"> 
+			7.1. As quadras utilizadas nos desafios serão as do Aero Tennis Center, sem custos adicionais para os atletas;
+		</p>
+		<p class="text-justify"> 
+			7.2. As bolas utilizadas nos desafios serão, obrigatoriamente, dos próprios atletas. Professores, professores-auxiliares e funcionários estão proibidos pela direção da Escola de fornecer bolas usadas nos treinamentos para os desafios.
+		</p>
+		
+		<br>
+		<h4 class="text-justify">
+			8. Da Masters Cup Aero Tennis Center
+		</h4>
+		<p class="text-justify"> 
+			8.1. Ao fim de todo ano, uma competição entre os tenistas com melhor posicionamento no ranking será realizada pela escola seguindo as seguintes normas:
+		</p>
+		<p class="text-justify"> 
+			8.2. Os oito melhores tenistas no ranking disputarão torneio no sistema de chaves, com os dois melhores passando para a disputa de semifinais e final;
+		</p>
+		<p class="text-justify"> 
+			8.3. O formato das disputas será definido em comum acordo com os participantes.
+		</p>
+		
+		<br>
+		<h4 class="text-justify">
+			9. Das premiações
+		</h4>
+		<p class="text-justify"> 
+			9.1. As premiações para todos os torneios realizados, bem como por posições no Ranking do Aero Tennis Center, serão definidos durante o ano pela direção do Aero Tennis Center.
+		</p>
+		
+		<br>
+		<h4 class="text-justify">
+			10. Das disposições finais
+		</h4>
+		<p class="text-justify"> 
+			10.1. Quaisquer casos não contemplados pelo regulamento serão analisados pela comissão organizadora do Ranking do Aero Tennis Center, não cabendo contestação por parte dos atletas;
+		</p>
+		<p class="text-justify"> 
+			10.2. Casos de indisciplina, manipulação de resultados ou quaisquer outros artifícios que venham a ferir a essência do esporte e do jogo limpo serão punidos com a exclusão do atleta do Ranking.
+		</p>
+		
+		
+      </div>
+
+    </div><!-- /.container -->
+	
+	
+	
+	<script>
+	
+	function toggle(target){
+    
+	  var artz = document.getElementsByClassName('article');
+	  var targ = document.getElementById(target);  
+	  var isVis = targ.style.display=='block';
+    
+	  // hide all
+	  for(var i=0;i<artz.length;i++){
+	     artz[i].style.display = 'none';
+	  }
+	  // toggle current
+	  targ.style.display = isVis?'none':'block';
+    
+	  return false;
+	}
+	
+	</script>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
